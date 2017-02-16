@@ -134,3 +134,5 @@ friends: [
         href: "#"
     }
 ]
+
+theme: jekyll-theme-minimal

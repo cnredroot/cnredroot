@@ -6,7 +6,7 @@ email: gkj@gkj.cc
 description: "架构师 | 这里是 先吃软乎乎的肚皮 的个人博客，独立站点，用心感受世界。"
 keyword: "Eric, Eric Gu, Eric Gu博客, 博客, 个人网站, 互联网, 产品, C#, Azure"
 url: "http://gkj.net.cn"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""                           # for example, '/blog' if your blog hosted on 'host/blog'
 
 # 为站点内的所有Page和Post设置参数
 defaults:
@@ -26,7 +26,7 @@ RSS: true
 weibo_username:     AppFabric
 zhihu_username:     qing-han
 github_username:    cnredroot
-twitter_username:  Eric_GuKa
+twitter_username:   Eric_GuKa
 facebook_username:  eric.gu.560
 linkedin_username:  eric-gu-a7919b107
 
@@ -88,7 +88,7 @@ kramdown:
 # disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-# duoshuo_username: gkj
+duoshuo_username: gkj
 # Share component is depend on Comment so we can NOT use share only.
 # duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 

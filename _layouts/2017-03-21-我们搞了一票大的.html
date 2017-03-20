@@ -1,0 +1,520 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>&quot;我们搞了一票大的&quot;</title><link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'><style type='text/css'>html, body {overflow-x: initial !important;}html { font-size: 14px; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { background-color: rgb(181, 214, 252); text-shadow: none; background-position: initial initial; background-repeat: initial initial; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; padding-bottom: 70px; white-space: pre-wrap; overflow-x: auto; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+.typora-export #write { margin: 0px auto; }
+#write > p:first-child, #write > ul:first-child, #write > ol:first-child, #write > pre:first-child, #write > blockquote:first-child, #write > div:first-child, #write > table:first-child { margin-top: 30px; }
+#write li > table:first-child { margin-top: -20px; }
+img { max-width: 100%; vertical-align: middle; }
+input, button, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+::before, ::after, * { box-sizing: border-box; }
+#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write div, #write pre { width: inherit; }
+#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6 { position: relative; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+p { -webkit-margin-before: 1rem; -webkit-margin-after: 1rem; -webkit-margin-start: 0px; -webkit-margin-end: 0px; }
+.mathjax-block { margin-top: 0px; margin-bottom: 0px; -webkit-margin-before: 0rem; -webkit-margin-after: 0rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: bold; font-style: italic; }
+a { cursor: pointer; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; margin: 4px 0px 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 80px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+pre { white-space: pre-wrap; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+.md-fences .CodeMirror.CodeMirror-wrap { top: -1.6em; margin-bottom: -1.6em; }
+.md-fences.mock-cm { white-space: pre-wrap; }
+.show-fences-line-number .md-fences { padding-left: 0px; }
+.show-fences-line-number .md-fences.mock-cm { padding-left: 40px; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; padding-top: 1em; padding-bottom: 1em; }
+.footnotes + .footnotes { margin-top: -1em; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background-color: transparent; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: normal; text-align: left; box-sizing: content-box; direction: ltr; background-position: initial initial; background-repeat: initial initial; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li p, li .mathjax-block { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; }
+@media print { 
+  html, body { height: 100%; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  h1, h2, h3, h4, h5, h6 { break-after: avoid-page; orphans: 2; }
+  p { orphans: 4; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 1cm; padding-right: 1cm; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0mm; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 2.86rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p .md-image:only-child { display: inline-block; width: 100%; text-align: center; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.mathjax-block { white-space: pre; overflow: hidden; width: 100%; }
+p + .mathjax-block { margin-top: -1.143rem; }
+.mathjax-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: none; box-shadow: none; }
+.task-list { list-style-type: none; }
+.task-list-item { position: relative; padding-left: 1em; }
+.task-list-item input { position: absolute; top: 0px; left: 0px; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc::after, .md-toc-content::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); text-decoration: none; }
+.md-toc-inner:hover { }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: bold; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: '.'; }
+.md-tag { opacity: 0.5; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: monospace; }
+code { text-align: left; }
+h1 .md-tag, h2 .md-tag, h3 .md-tag, h4 .md-tag, h5 .md-tag, h6 .md-tag { font-weight: initial; opacity: 0.35; }
+a.md-print-anchor { border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: none !important; background-color: transparent !important; text-shadow: initial !important; background-position: initial initial !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.mathjax-block .MathJax_SVG_Display { text-align: center; margin: 1em 0em; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: monospace; }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: normal; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+
+
+@include-when-export url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/**
+ * css forked from https://github.com/GitbookIO/gitbook 
+ * www.gitbook.com
+ * Apache License
+ * https://github.com/GitbookIO/gitbook/blob/master/LICENSE
+ **/
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Regular'),url('file:///Users/gukajie/Library/Application%20Support/abnerworks.Typora/themes/github/400.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: normal;
+    src: local('Open Sans Italic'),url('file:///Users/gukajie/Library/Application%20Support/abnerworks.Typora/themes/github/400i.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Open Sans Bold'),url('file:///Users/gukajie/Library/Application%20Support/abnerworks.Typora/themes/github/700.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: bold;
+    src: local('Open Sans Bold Italic'),url('file:///Users/gukajie/Library/Application%20Support/abnerworks.Typora/themes/github/700i.woff') format('woff')
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write{
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 20px 30px 40px 30px;
+	padding-top: 20px;
+    padding-bottom: 100px;
+}
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+body > *:first-child {
+    margin-top: 0 !important;
+}
+body > *:last-child {
+    margin-bottom: 0 !important;
+}
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    /*background: url("file:///Users/gukajie/Library/Application%20Support/images/modules/styleguide/para.png") no-repeat 10px center;*/
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+   padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 4px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+    border-bottom: 1px solid #ddd;
+}
+
+body > h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+body > h1:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+body > h3:first-child,
+body > h4:first-child,
+body > h5:first-child,
+body > h6:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+a:first-child h1,
+a:first-child h2,
+a:first-child h3,
+a:first-child h4,
+a:first-child h5,
+a:first-child h6 {
+    margin-top: 0;
+    padding-top: 0;
+}
+h1 p,
+h2 p,
+h3 p,
+h4 p,
+h5 p,
+h6 p {
+    margin-top: 0;
+}
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dddddd;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-gutters {
+    border-right: 1px solid #ddd;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 0.2em 1em;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+.task-list{
+	padding-left: 0;
+}
+
+.task-list-item {
+	padding-left:32px;
+}
+
+.task-list-item input {
+  top: 3px;
+  left: 8px;
+}
+
+@media screen and (min-width: 914px) {
+    /*body {
+        width: 854px;
+        margin: 0 auto;
+    }*/
+}
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag{
+	color: inherit;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#md-notification:before {
+    top: 10px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><p></p><h1><a name='header-c9' class='md-header-anchor '></a>我们搞了一票大的</h1><h2><a name='header-c10' class='md-header-anchor '></a>一、什么升级？CTOS带着一大波系统升级！</h2><p>我们要升级了，升级什么东西搞这么大？CTOS！</p><p>与CTOS同时上线的，还有核心网络、数据仓库、数据交换平台、客户服务平台、统一监控系统。</p><p></p><h3><a name='header-c17' class='md-header-anchor '></a>CTOS是什么？</h3><p>看过《钢铁侠》没有，当我被告知《钢铁侠》里的JAVIS的全称是Just a  very  intelligence system，瞬间觉得老外有时候也是很LowB的啊。</p><p><img src='/Users/gukajie/cnredroot/img/posts/javis.jpg' alt='javis' /></p><p></p><p>CTOS就是码头行业的Javis。</p><p>虽然我们的CTOS也没有一个狂拽酷炫屌炸天的全称（Container Terminals Operation System），但我们还是做了一些屌炸天的事情。</p><p>每个集装箱码头都有一个Javis，现代化的集装箱码头没它可不行啊。我们需要用它来管理整个集装箱码头的业务流程。</p><p><img src='/Users/gukajie/cnredroot/img/posts/CTOS2.8.jpg' alt='CTOS2.8' /></p><p>CMICT的CTOS已经用了9年了，已经满足不了快速变化的要求了。每次新的需求过来，对于CTOS开发商来说都是一次劫难。整个软件过程管理都非常艰难。</p><p></p><p>CTOS2.8同志，你的任务还没完成，你还不能挂。</p><p>好了，CTOS4.0来了，我们要升级的就是它了。</p><p></p><h2><a name='header-c42' class='md-header-anchor '></a>二、项目过程</h2><p>整个升级项目从2014年开始，经历了6个UAT版本，如果是一家创业公司，挨到了第6轮，应该已经是很有钱，and 很有前途了。但是，对于一个传统行业的核心业务系统来说，上6次还上不了线，真的会另人崩溃的。</p><p>我们和业务部门做了大量的测试。正常的功能测试就不说了，</p><p>还有比如边界测试，不是老司机，根本不行的。</p><p><img src='/Users/gukajie/cnredroot/img/posts/margentest.gif' alt='margentest' /></p><p></p><p>测试过程中各种坑、各种凶险：</p><p><img src='/Users/gukajie/cnredroot/img/posts/testprocess.gif' alt='testprocess' /></p><p></p><p>还好，终于，我们撑过来了。</p><p>升级后，CTOS标称是可以支持1500万TEU的年吞吐量。</p><p><img src='/Users/gukajie/cnredroot/img/posts/2016%E6%B8%AF%E5%8F%A3%E6%8E%92%E5%90%8D.png' alt='2016港口排名' /></p><p>好吧，我司码头的设计标称是240万吞吐量，这不重要，重要的是CTOS这位同志又有了新的活力，有适应未来的强劲动力。</p><h3><a name='header-c67' class='md-header-anchor '></a>第一个U2L的集装箱码头</h3><p>我们可能是全球百万级以上集装箱码头公司第一个把核心型业务系统——CTOS数据库从Unix迁移到Linux的公司。这个意义我就不吹牛了，你去问度娘好了。</p><p><img src='/Users/gukajie/cnredroot/img/posts/money.gif' alt='money' /></p><p>都知道IT烧钱，接下来我们可以把省下来的钱烧在其它地方了！比如AI，ML等等。</p><p></p><p>当然 ，我们把系统集成的钱也省了，IT系统集成自己动手干是CMICT IT一贯的风格。</p><p><img src='/Users/gukajie/cnredroot/img/posts/dell2.png' alt='dell2' /></p><p>上次有个供应商说，我们用了他们这么多设备，也不展示一下，好！这次展示一下，内部的也展示一下：</p><p><img src='/Users/gukajie/cnredroot/img/posts/dell1.png' alt='dell1' /></p><p>经过多次测试评估，它们将应用到我们的核心业务平台。</p><p></p><h2><a name='header-c88' class='md-header-anchor '></a>三、数据交换平台</h2><p>如果把CTOS比作一个在商业战场上奋斗的男人，每一个成功男人的背后都有一个强大的女人，这个女人会处理好后宫关系，在外替这个男人打点好场面。与这个男人相辅相成的女人就是数据交换平台（企业服务总线，ESB）。</p><p><img src='/Users/gukajie/cnredroot/img/posts/%E6%95%B0%E6%8D%AE%E4%BA%A4%E6%8D%A2%E5%B9%B3%E5%8F%B0.png' alt='数据交换平台' /></p><p>我们基于微软的Biztalk构建公司内、外部的数据交换系统，基于统一管理的要求、基于业务运维的视角构建数据与服务的交换平台，实现数据及服务从端到端的全生命周期管理。</p><p>数据交换平台接管了除EDI报文外，CTOS与公司内外其它系统的全部数据交换服务。</p><p>不敢说这是微软Biztalk在国内最大规模的应用，但在码头行业肯定是No1。</p><p><img src='/Users/gukajie/cnredroot/img/posts/%E6%8E%A5%E5%8F%A3%E7%BB%9F%E8%AE%A1.jpg' alt='接口统计' /></p><p>微软虽然是原厂，但做项目的时候还是吭你没商量啊。跟原厂做项目，真是让我等乡下IT小民大长见识，瞬间项目管理技能和IT技能像吃了千年人参啊。</p><p>图。</p><p>这位小哥经过我软（虽然微软坑我们，但我们还是朋友么，大家都是朋友么！）蹂躏，发现了好几个Biztalk的Bug，还有2个还是Biztalk Core级别的问题，当时发现这问题的时候，微软说这个问题太核心，要修复至少2-3个月，那时我想死的心都有了。我软的faile over Cluster就是个大坑啊，还有MSTDC，你死不死啊！没办法啊，项目要上啊，我们已经上了贼船了。好在整个数据交换平台的顶层设计是我们自己做了，你既然站不起来，那我就把你类容器化、类微服务化，就此也确立了我司下一代数据交换平台的设计思想。</p><p></p><h2><a name='header-c109' class='md-header-anchor '></a>四、数据仓库</h2><p>各个系统的数据孤岛在应用层面已经由上面的企业服务总线来连接到一起。</p><p><img src='/Users/gukajie/cnredroot/img/posts/timg.gif' alt='timg' /></p><p>可以在应用层提供联合服务，提升客户服务能力。</p><p>但是如果没有数据仓库，在数据层面还是由独立的应用多程序独自维护。</p><p>数据孤岛在数据层面的问题就需要一个企业级的数据仓库来解决。这是个非传统意义上的分析型目标为导向的数据库，而是一个近实时同步的应用、分析型数据处理体。</p><p></p><p><img src='/Users/gukajie/cnredroot/img/posts/EDB%20Arch.png' alt='EDB Arch' /></p><p>传统的分析型数据仓库基于市面能用的同步程序，无法做到实时的数据同步，实现即席业务查询。我们通过对核心业务建模后根据业务中对象的生命周期进行划分，按数据对象的不同定义同步方案。在用限的条件下，以极低的成本解决了数据同步问题。</p><p></p><p><img src='/Users/gukajie/cnredroot/img/posts/ETL.png' alt='ETL' /></p><p>同步只是第一步。同步后的数据，通过模型层组装，形成业务关联，后端由我软的SQL Server 分析服务处理成不同主题的多维数据库。</p><p>同时，模型层的好处是，使得数据有了靠近、亲和用户的可能性。用户看到的不再是冷冰冰的面向代码构建的数据记录。用户只需要拿出PowerBI或者EXCEL，连接模型或者多维数据库，获取不同的分析主题，只需要理解业务就可以进行自助式的数据分析。</p><p><img src='/Users/gukajie/cnredroot/img/posts/thrupt.png' alt='thrupt' /></p><p></p><p>想象当中的高手应该是这样的：</p><p><img src='/Users/gukajie/cnredroot/img/posts/saodisen.jpg' alt='saodisen' /></p><p>实际上造出我们EDB的这货是这样的：</p><p><img src='/Users/gukajie/cnredroot/img/posts/zf.png' alt='zf' /></p><p></p><h2><a name='header-c148' class='md-header-anchor '></a>五、客户服务平台</h2><p>上面这位老湿，除了搞了数据仓库外，还有另外一项杰做——客户服务平台。</p><p><img src='/Users/gukajie/cnredroot/img/posts/willport2.png' alt='willport2' /></p><p>统一数据存储和统一的数据交换平台有了，用户端需要一个工具，一来是为了把数据真的还给用户，让用户摸到数据，二来可以让用户直接打造客户服务业务。</p><p>我们基于微软Sharpeoint 平台打造了客户服务平台，后端可以连接EDB和ESB，用户可以在平台上通过业务生成器直接生效客户需要的查询报表、以及相关的业务功能。我们每个船公司和货代客户在客户服务平台都都有自己的个性化界面和定制功能。这些功能无需IT代码开发，可由业务部门用户直接创建。</p><blockquote><p>IT：我是你的什么？</p><p>用户：你是我的优乐美！</p><p>IT：啊？伦家只是奶茶啊？</p><p>用户：不是啦，这样我就能把你捧在手里了。</p></blockquote><p>客户服务平台是我们造的一个用户端的工具，让IT资产由用户自己去创造业务价值。</p><p><img src='/Users/gukajie/cnredroot/img/posts/willport.png' alt='willport' /></p><h3><a name='header-c170' class='md-header-anchor '></a>但我们老大说：Only this, is not enought!我们要让用户感觉不到我们，但是又少不了我们，我们不可名状，但又无处不在。</h3><p></p><p></p><h2><a name='header-c175' class='md-header-anchor '></a>六、统一监控平台</h2><p>健康是1，其它都是0！对于系统来说，系统的健康度和稳定性同样也是最重要的。我们需要一位家庭医生，专业的，因为我们所有的平台、业务系统和技术栈都是基于微软的产品和解决方案，System Center是一个不错的选择，所以我们又找了微软项目组，又是微软，又是微软，</p><p><img src='/Users/gukajie/cnredroot/img/posts/lashou.gif' alt='lashou' /></p><p>但是落花有意，流水无情啊。</p><p>我软给我们抛了个媚眼，把我们娶进门后就把我们凉在了一边。幸好经过前几次的历练，我们已经自学成材。</p><p>System Center经过前两年的储备，已经应用到再有的运维中，对于核心系统的平台性异常，我们已经可以做了到先于业务发现故障隐患。在此过程中我们也已经有炼成神功，在与微软沟通过程中，几个号称在SCOM领域有所建树的牛人也纷纷被秒杀。</p><p>我们自己建的SCOM已经能监控基础架构、OS和应用容器的一些异常，但是微软目前也没有资源，无法基于业务来做整体监控，虽然没有达到家庭医生的级别，但至少是个小护士了。</p><p><img src='/Users/gukajie/cnredroot/img/posts/gls.png' alt='gls' /></p><p>图片贴错了，那是按摩师，不对，是程序员鼓励师！（图片来源于互联网，CMICT IT还没有这样的待遇）</p><h3><a name='header-c192' class='md-header-anchor '></a>我们的“小护士”这样的：</h3><p><img src='/Users/gukajie/cnredroot/img/posts/SCOM.png' alt='SCOM' /></p><p>基于微软的SCOM，我们对整个基础架构（网络交换机）、OS（Linux、Windows）、应用容器（IIS）、以及应用进行监控，并且可以跟踪到应用程序代码级别的性能问题。</p><p>基于新版本的SCOM，我们可以呈现更多东西：</p><p><img src='/Users/gukajie/cnredroot/img/posts/scom2016.png' alt='scom2016' /></p><p>一个优秀的监控平台，必定是系统和业务兼顾，其背后必需会是一个兼具业务和IT技能力齐飞的匠人，是一个“黑”客：</p><p></p><p></p><h2><a name='header-c207' class='md-header-anchor '></a>七、预祝升级成功</h2><p></p><p></p><p><img src='/Users/gukajie/cnredroot/img/posts/IMG_2053.JPG' alt='IMG_2053' /></p><p></p><p><img src='/Users/gukajie/cnredroot/img/posts/wall1.png' alt='wall1' /></p><p></p><p></p><h2><a name='header-c222' class='md-header-anchor '></a>寄语</h2><p>截止CTOS4X系统上线，我们完成了上轮IT规划中“一个标准、一条总线、一个平台、统一存储”的规划目标。</p><p><img src='/Users/gukajie/cnredroot/img/posts/itgh.png' alt='itgh' /></p><p>5年前，有一个男人经过深入分析思考、并且夜观天象后，在脑海中画了“几条线”，于是CMICT整体信息化就从一块平地，建起了万丈高楼。</p><p><img src='/Users/gukajie/cnredroot/img/posts/itgh2.png' alt='itgh2' /></p><p>在IT这么一个变化超级快的行业，能看得这么长远、这么坚定、以及这么坚决的执行力，不能不佩服啊。</p><p>他带着我们在IT行业打拼，他是微软的铁杆粉，他融中医精华于IT之中，</p><p><img src='/Users/gukajie/cnredroot/img/posts/hackermovie.jpeg' alt='hackermovie' /></p><p>好像也没有想象中那么酷：</p><p><img src='/Users/gukajie/cnredroot/img/posts/ironman.gif' alt='ironman' /></p><p>他替我们背黑锅、当防火墙，做最坚强的后盾：</p><p><img src='/Users/gukajie/cnredroot/img/posts/lz.png' alt='lz' /></p><p></p><h4><a name='header-c247' class='md-header-anchor '></a>以前目标的完成即新的开始，下一轮IT规划也即将开始，而我们已经走在未来的路上。</h4><p>回想当年协助这个男人做规划的时候，《IT规划之打死我也不再修改版》、《IT规划之冰天雪地裸体360度加托马斯圈旋9527周跪地版本》、《IT规划之宇宙爆炸也不再改的终结版》还是挡不住修改的历程，那年IT规划之后，他头发白了一大片。</p><p><img src='/Users/gukajie/cnredroot/img/posts/itgh3.png' alt='itgh3' /></p><p></p><p>未来，老大已经有了新五年的目标，带我们重新踏上征程！</p><p><img src='/Users/gukajie/cnredroot/img/posts/termial.png' alt='termial' /></p><blockquote><h3><a name='header-c259' class='md-header-anchor '></a>Powered by CMICT IT!</h3></blockquote><blockquote><p>翻译成普通话：</p><h3><a name='header-c263' class='md-header-anchor '></a>未来，由CMICT IT强劲驱动！</h3></blockquote><p></p><h4><a name='header-c266' class='md-header-anchor '></a>感谢CMICT高层领导给予的创新环境和大力支持！</h4><h4><a name='header-c267' class='md-header-anchor '></a>感谢公司各级领导同事对IT的理解和支持！</h4><h4><a name='header-c268' class='md-header-anchor '></a>感谢码头同行给予的大力支持和协助！</h4><h4><a name='header-c269' class='md-header-anchor '></a>感谢信息化项目过程中各厂商、技术友人的支持！</h4><p></p><p></p></div>
+</body>
+</html>
